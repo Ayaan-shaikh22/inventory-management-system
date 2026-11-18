@@ -1,0 +1,1 @@
+Add genuine screenshots of the running Inventory Management System, Jenkins pipeline, AWS deployment and Grafana dashboard here after you have built and tested those components. Do not use screenshots from the previous Employee Management project.

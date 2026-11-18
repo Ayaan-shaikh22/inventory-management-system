@@ -1,0 +1,32 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+coverage/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+# Terraform generated files
+.terraform/
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform/terraform.tfvars
+crash.log
+crash.*.log
+# Credentials and private keys
+*.pem
+# Local monitoring data
+inventory-monitoring/prometheus/data/
+inventory-monitoring/grafana/data/
